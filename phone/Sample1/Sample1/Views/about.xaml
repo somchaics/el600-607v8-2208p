@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="About"
+             x:Class="Sample1.Views.about">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="About Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="back_home" Text="Back Home" BackgroundColor="SeaGreen" TextColor="White" FontSize="24" Clicked="back_home_Clicked"> 
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

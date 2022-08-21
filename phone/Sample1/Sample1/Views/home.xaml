@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Home" 
+             x:Class="Sample1.Views.home">
+    <NavigationPage.TitleView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center"  Orientation="Horizontal">
+            <Label HorizontalOptions="Center" VerticalTextAlignment="Center" Text="Home Page" FontSize="24"/>
+
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome"  TextColor="Black" FontSize="24"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="Start Mobile App."  TextColor="Black" FontSize="24" Padding="20,0,0,0"
+                VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="Home" TextColor="Green" FontSize="24"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" ></Label>
+            
+            <Button x:Name="nextpage2" Text="Login" BackgroundColor="DarkBlue" TextColor="White" FontSize="24" Clicked="nextpage2_Clicked"></Button>
+        </StackLayout>
+
+        
+    </ContentPage.Content>
+</ContentPage>

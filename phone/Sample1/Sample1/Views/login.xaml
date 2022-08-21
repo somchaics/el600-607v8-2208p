@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Login"
+             xmlns:local="clr-namespace:Sample1"
+             x:Class="Sample1.Views.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Login Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="money.png"></Image>
+            <Image HeightRequest="100" WidthRequest="100" Source="{local:ImageResource Sample1.Images.user.png }" />
+
+
+            <Button x:Name="nextpage3" Text="About" BackgroundColor="DarkBlue" TextColor="White" FontSize="24" Clicked="nextpage3_Clicked"></Button>
+        </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>
